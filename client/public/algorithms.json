@@ -1,0 +1,394 @@
+{
+  "algorithms": [
+    {
+      "id": "chest-pain",
+      "title": "Chest Pain",
+      "description": "Evaluation of chest pain with focus on cardiac causes",
+      "mainComplaints": [
+        "Chest pain, pressure, tightness",
+        "Pain radiating to neck, jaw, shoulders, back, or arms",
+        "Indigestion or heartburn with chest discomfort",
+        "Shortness of breath",
+        "Weakness, dizziness, lightheadedness"
+      ],
+      "cardiacCauses": [
+        {
+          "name": "Acute Coronary Syndromes (ACS)",
+          "description": "Pain from myocardial hypoperfusion due to coronary artery occlusion"
+        },
+        {
+          "name": "Unstable Angina (UA)",
+          "description": "Rest pain for 20+ minutes, likely associated with unstable vessel occlusion"
+        },
+        {
+          "name": "Variant Angina",
+          "description": "Vasospastic angina with normal coronary arteries"
+        },
+        {
+          "name": "Stable Angina",
+          "description": "Chronic effort-dependent angina from imbalanced myocardial oxygen needs"
+        }
+      ],
+      "history": [
+        "Chief complaints indicating immediate cardiac care need",
+        "Past and current illnesses (diabetes, Marfan syndrome, anemia, lupus)",
+        "Severity, quality, location, duration, aggravating/relieving factors",
+        "Radiation of pain and associated symptoms"
+      ],
+      "physicalExam": [
+        "Inspect for signs of atherosclerosis (arcus senilis, arterial hardening)",
+        "Assess pulse at radial and femoral arteries",
+        "Measure BP and body temperature",
+        "Palpate chest and spinous processes",
+        "Assess for local tenderness, fractures, spinal diseases",
+        "Percuss chest (rule out pneumothorax)",
+        "Inspect feet for deep vein thrombosis",
+        "Perform cardiac and pulmonary auscultation"
+      ],
+      "investigations": [
+        "ECG - ST elevation/depression, Q waves, T wave changes",
+        "Echocardiogram - wall motion abnormalities, pericardial effusion",
+        "Chest X-ray - pneumonia, pneumothorax, lung pathology"
+      ],
+      "preHospitalCare": [
+        "Intravenous access, supplemental oxygen, pulse oximetry",
+        "Immediate aspirin administration",
+        "Nitroglycerin for active chest pain"
+      ],
+      "referralIndications": [
+        "Atypical chest pain presentation",
+        "Pain not responding to treatment",
+        "Hypotension, poor tissue perfusion, pulmonary edema",
+        "Tachycardia, tachypnea, hypoxia",
+        "ECG changes (ST elevation, new LBBB)",
+        "New systolic mitral murmur",
+        "Arrhythmia in younger patients",
+        "Mediastinal widening on chest X-ray"
+      ],
+      "patientEducation": [
+        "Therapeutic lifestyle changes for cardiovascular risk",
+        "Smoking cessation",
+        "Dietary cholesterol <200mg, sodium 1-2g, no caffeine",
+        "Reduced saturated fat, increased mono/polyunsaturated fats",
+        "Increased viscous fiber and plant stanols"
+      ]
+    },
+    {
+      "id": "dyspnea",
+      "title": "Dyspnea (Shortness of Breath)",
+      "description": "Evaluation of dyspnea with classification by duration and underlying cause",
+      "mainComplaints": [
+        "Shortness of breath",
+        "Difficulty breathing",
+        "Breathing effort without air movement"
+      ],
+      "classification": [
+        {
+          "type": "Acute Dyspnea",
+          "duration": "Less than one month",
+          "cardiacCauses": [
+            "Congestive heart failure",
+            "Coronary artery disease",
+            "Arrhythmia",
+            "Pericarditis",
+            "Acute myocardial infarction",
+            "Anemia"
+          ],
+          "pulmonaryCauses": [
+            "COPD",
+            "Asthma",
+            "Pneumonia",
+            "Pneumothorax",
+            "Pulmonary embolism",
+            "Pleural effusion",
+            "Metastatic disease",
+            "Pulmonary edema",
+            "GERD with aspiration",
+            "Restrictive lung disease"
+          ],
+          "otherCauses": [
+            "Panic attacks",
+            "Hyperventilation",
+            "Pain, anxiety",
+            "Epiglottitis",
+            "Foreign body",
+            "Croup",
+            "Epstein-Barr virus",
+            "Metabolic acidosis",
+            "Medications",
+            "Neuromuscular disorders",
+            "Pain, aspirin overdose"
+          ]
+        },
+        {
+          "type": "Chronic Dyspnea",
+          "duration": "More than one month",
+          "cardiacCauses": [
+            "Congestive heart failure",
+            "Coronary artery disease",
+            "Cardiac arrhythmias",
+            "Pericardial disease",
+            "Valvular heart disease"
+          ],
+          "pulmonaryCauses": [
+            "COPD",
+            "Asthma",
+            "Interstitial lung disease",
+            "Pleural effusion",
+            "Malignancy",
+            "Bronchiectasis"
+          ],
+          "nonCardiacPulmonaryCauses": [
+            "Thromboembolic disease",
+            "Psychogenic causes (GAD, PTSD, panic)",
+            "Deconditioning",
+            "Pulmonary hypertension",
+            "Obesity",
+            "Severe anemia",
+            "GERD",
+            "Metabolic conditions",
+            "Liver cirrhosis",
+            "Thyroid disease",
+            "Neuromuscular disorders",
+            "Chest wall deformities",
+            "Upper airway obstruction"
+          ]
+        }
+      ],
+      "physicalExam": [
+        {
+          "section": "General Appearance and Vital Signs",
+          "findings": [
+            "Observe respiratory effort and accessory muscle use",
+            "Assess mental status and ability to speak",
+            "Check for pulsus paradoxus",
+            "Stridor indicates upper airway obstruction",
+            "Rectal temperature for fever detection"
+          ]
+        },
+        {
+          "section": "Neck Examination",
+          "findings": [
+            "Neck vein distention suggests cor pulmonale or cardiac tamponade",
+            "Check thyroid for enlargement (congestive heart failure)",
+            "Ensure trachea is midline",
+            "Auscultate for stridor"
+          ]
+        },
+        {
+          "section": "Cardiac and Pulmonary Examination",
+          "findings": [
+            "Palpate for subcutaneous emphysema and crepitus",
+            "Percuss for dullness (consolidation or effusion)",
+            "Hyper-resonance suggests pneumothorax or emphysema",
+            "Auscultate for murmurs or extra heart sounds",
+            "Absent breath sounds may indicate pneumothorax or pleural effusion",
+            "Wheezing suggests obstructive lung disease or pulmonary edema",
+            "Rapid/irregular pulse may signify dysrhythmia",
+            "S3 gallop suggests LV systolic dysfunction",
+            "S4 gallop suggests LV dysfunction or ischemia",
+            "Loud P2 heard in pulmonary hypertension or cor pulmonale",
+            "Murmurs may indicate heart failure or dissection",
+            "Distant heart sounds suggest cardiac tamponade"
+          ]
+        },
+        {
+          "section": "Abdominal Examination",
+          "findings": [
+            "Look for hepatomegaly and ascites",
+            "Hepatojugular reflux is valid for CHF diagnosis"
+          ]
+        },
+        {
+          "section": "Extremities",
+          "findings": [
+            "Check for edema and signs of deep venous thrombosis",
+            "Examine digits for clubbing or cyanosis"
+          ]
+        }
+      ],
+      "investigations": [
+        {
+          "test": "Chest X-ray",
+          "findings": [
+            "Infiltrate characteristic of pneumonia",
+            "Vascular engorgement or pulmonary edema (CHF)",
+            "Hyperinflation (obstructive lung disease)",
+            "Pleural effusions or pneumothorax",
+            "Increased interstitial markings (interstitial lung disease)",
+            "Chest wall abnormalities or neoplastic lesion"
+          ]
+        },
+        {
+          "test": "Electrocardiogram",
+          "findings": [
+            "Detects arrhythmia, ventricular hypertrophy, pericardial disease",
+            "Acute ST changes suggest angina or MI",
+            "Echocardiogram assesses systolic/diastolic dysfunction"
+          ]
+        },
+        {
+          "test": "Complete Blood Count (CBC)",
+          "findings": [
+            "Elevated WBC suggests infection (pneumonia)",
+            "Acute anemia may cause dyspnea"
+          ]
+        },
+        {
+          "test": "Other Tests",
+          "findings": [
+            "GERD with secondary bronchospasm should be considered in episodic symptoms"
+          ]
+        }
+      ],
+      "treatmentCOPD": {
+        "unstablePatients": [
+          "Administer oxygen, ACLS guidelines, intubation if gasping",
+          "IV line access and fluid administration",
+          "Needle thoracentesis for tension pneumothorax",
+          "Nebulized bronchodilator if obstructive disease present",
+          "IV or IM furosemide if pulmonary edema present"
+        ],
+        "stablePatients": [
+          "Obtain history to determine acuity level",
+          "Reassess airways, mental status, ability to speak, breathing effort",
+          "Check vital signs, focused history on medication, cough, fever, chest pain",
+          "Focused physical exam on breath sounds and skin color"
+        ],
+        "furtherManagement": [
+          "Smoking cessation for all COPD patients",
+          "Pneumococcal and annual influenza vaccination",
+          "Antibiotics for exacerbations with purulent sputum",
+          "Short-acting bronchodilators for breathlessness relief",
+          "Intensify inhaled treatment for symptomatic patients",
+          "Long-acting bronchodilators or combined therapy with short-acting beta2-agonist and anticholinergic"
+        ]
+      },
+      "treatmentHeartFailure": {
+        "generalMeasures": [
+          "Restrict salt intake",
+          "Avoid antiarrhythmics for asymptomatic arrhythmias",
+          "Avoid NSAIDs",
+          "Immunize against influenza and pneumococcal pneumonia",
+          "Control systolic and diastolic hypertension per guidelines"
+        ],
+        "diuretics": [
+          "Use in volume-overloaded patients for normal JVP and edema relief",
+          "Weigh daily to adjust dose",
+          "IV or use 2 diuretics for diuretic resistance (furosemide + metolazone)"
+        ],
+        "aceInhibitors": [
+          "For all LV systolic heart failure or asymptomatic LV dysfunction",
+          "Contraindications: K+ >5.5, advanced renal failure (creatinine >3 mg/dL), bilateral renal artery stenosis, pregnancy"
+        ],
+        "betaBlockers": [
+          "For class II-III heart failure with ACE inhibitor and diuretics",
+          "Contraindications: Bronchospasm, symptomatic bradycardia, advanced heart block, unstable heart failure or class IV symptoms"
+        ]
+      },
+      "referralGuidelines": [
+        "Unstable patient after first aid treatment",
+        "Acute and rapidly progressive dyspnea to emergency room",
+        "When underlying cause cannot be established or symptoms disproportionate to severity",
+        "When specific diagnostic procedure needed (lung biopsy, cardiac catheterization)",
+        "Non-responders to therapy need subspecialty consultation",
+        "Suspected pulmonary disease may need pulmonary function testing",
+        "Arterial blood gas may be indicated for respiratory status",
+        "Spirometry distinguishes obstructive from restrictive lung disease",
+        "Pulse oximetry desaturation at rest or exercise indicates gas exchange abnormalities"
+      ]
+    },
+    {
+      "id": "bradycardia",
+      "title": "Bradycardia",
+      "description": "Evaluation and management of slow heart rate",
+      "mainComplaints": [
+        "Slow heart rate",
+        "Dizziness",
+        "Syncope",
+        "Fatigue"
+      ]
+    },
+    {
+      "id": "tachycardia",
+      "title": "Tachycardia",
+      "description": "Evaluation and management of rapid heart rate",
+      "mainComplaints": [
+        "Rapid heart rate",
+        "Palpitations",
+        "Chest discomfort",
+        "Shortness of breath"
+      ]
+    },
+    {
+      "id": "cough",
+      "title": "Cough",
+      "description": "Evaluation of acute and chronic cough",
+      "mainComplaints": [
+        "Persistent cough",
+        "Productive cough",
+        "Dry cough"
+      ]
+    },
+    {
+      "id": "fever",
+      "title": "Fever",
+      "description": "Evaluation of fever and febrile illness",
+      "mainComplaints": [
+        "High body temperature",
+        "Chills",
+        "Malaise"
+      ]
+    },
+    {
+      "id": "abdominal-pain",
+      "title": "Abdominal Pain",
+      "description": "Evaluation of acute and chronic abdominal pain",
+      "mainComplaints": [
+        "Abdominal pain",
+        "Cramping",
+        "Distension"
+      ]
+    },
+    {
+      "id": "headache",
+      "title": "Headache",
+      "description": "Evaluation of headache types and causes",
+      "mainComplaints": [
+        "Head pain",
+        "Migraine",
+        "Tension headache"
+      ]
+    },
+    {
+      "id": "diarrhea",
+      "title": "Diarrhea",
+      "description": "Evaluation of acute and chronic diarrhea",
+      "mainComplaints": [
+        "Loose stools",
+        "Frequent bowel movements",
+        "Watery stools"
+      ]
+    },
+    {
+      "id": "edema",
+      "title": "Edema",
+      "description": "Evaluation of peripheral and generalized edema",
+      "mainComplaints": [
+        "Swelling of extremities",
+        "Puffiness",
+        "Weight gain"
+      ]
+    },
+    {
+      "id": "jaundice",
+      "title": "Jaundice",
+      "description": "Evaluation of yellowing of skin and sclera",
+      "mainComplaints": [
+        "Yellow skin",
+        "Yellow eyes",
+        "Dark urine"
+      ]
+    }
+  ]
+}
